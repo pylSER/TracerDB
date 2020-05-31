@@ -1,0 +1,2 @@
+lib = File('/usr/local/lib/libwiredtiger.dylib')
+Program('hello_wt','wt_test.cpp',LIBS = [lib])

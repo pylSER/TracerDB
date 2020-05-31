@@ -1,0 +1,2 @@
+env = Environment(CPPPATH = ['handle'])
+env.Program('hello_tracerdb',['test.cpp','./handle/handle.cpp'])
